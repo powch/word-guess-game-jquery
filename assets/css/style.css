@@ -1,0 +1,42 @@
+body {
+    color: #ffffff;
+    font-family: 'Fredericka the Great', cursive;
+    background-image: url('../images/caffeine-coffee-coffee-beans-861090.jpg');
+    background-repeat: no-repeat;
+    background-size: 2560px auto;
+}
+
+#startScreen, #gameScreen, #loseScreen, #winScreen, .remainBox, .missedBox {
+    background-color: #373D39;
+}
+
+#startScreen {
+    display: block;
+}
+
+#gameScreen, #guessScreen, #loseScreen, #winScreen {
+    display: none;
+}
+
+#guessScreen {
+    height: 300px;
+}
+
+#missedLetters {
+    font-size: 3rem;
+    letter-spacing: 20px;
+}
+
+#guessRemain {
+    font-size: 3rem;
+}
+
+.remainBox, .missedBox {
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(231, 179, 127);
+}
+
+#wordDisplay {
+    letter-spacing: 20px;
+}
